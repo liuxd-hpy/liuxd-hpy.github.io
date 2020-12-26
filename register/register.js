@@ -107,7 +107,7 @@ $(document).ready(function(){
                         if (recv['sta'] == 0) {
                             setTimeout(function(){
                                 // 跳转到登录界面
-                                window.location = '../login.html';                                
+                                window.location = '../index.html';                                
                             }, 1000);
                         } else {
                             switch (recv['error']) {

@@ -281,7 +281,7 @@ $(document).ready(function(){
                         $lbl.text("密码重置成功，将自动跳转到登录页面 。。。。");
                         $lbl.css("color", "blue");
                         setTimeout(function(){
-                            window.location = '../login.html';
+                            window.location = '../index.html';
                         }, 1000);
                     }
                 });
@@ -292,7 +292,7 @@ $(document).ready(function(){
 
     $(".left").click(function(){
         setTimeout(function(){
-            window.location = "../login.html";
+            window.location = "../index.html";
         }, 500);
     });
 });
