@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地面开发科调休系统</title>
+    <link rel="shortcut icon" href="./img/waysideicon.ico">
+    <link rel="stylesheet" href="./iconfont/btyfont/iconfont.css"/>
+    <link rel="stylesheet" href="./iconfont/tmfont/iconfont.css"/>
+    <link rel="stylesheet" href="./login.css" />
+    <script>
+        function getYear() {
+            let date = new Date();
+            let year = date.getFullYear();
+            document.getElementById("year").innerHTML = year;
+        }
+    </script>
+</head>
+<body onload="getYear()">
+    <div class="page-top">
+        <div class="main">
+            <div class="main-top">
+                <span class="iconfont">&#xe9e4</span>
+                <strong>地面开发科调休系统</strong>
+            </div>
+            <div class="bg-img"></div>
+            <form class="main-bottom" action="" method="POST">
+                <ul class="mb-left">
+                    <li><input class="user" type="text" placeholder="用户名/工号"></li>
+                    <li><input class="pwd" type="password" placeholder="密码"></li>
+                    <li class="last"></li>
+                </ul>
+                <ul class="mb-right">
+                    <li><strong class="login-btn">登录</strong></li>
+                    <li><a href="./forget/foeget.html">忘记密码?</a> <a href="./register/register.html">注册?</a></li>
+                </ul>
+            </from>
+        </div>
+    </div>
+    <div class="page-bottom">
+        <span>Copyright © 2019-<label id="year"></label> Wayside All Rights Reserved</span>
+    </div>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="./jquery.md5.js"></script>
+    <script type="text/javascript" src="./public.js"></script>
+    <script type="text/javascript" src="./login.js"></script>
+</body>
+</html>

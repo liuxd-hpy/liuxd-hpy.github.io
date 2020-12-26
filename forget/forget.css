@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    background-color: #e9eaed;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ============ page-main ============= */
+.page-top {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.left {
+    float: left;
+    background: url(./img/Naruto.png) no-repeat;
+    margin-left: 200px;
+    text-indent: 40px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.left span {
+    display: block;
+    color: #FF6500;
+    font-weight: bold;
+}
+
+.disc {
+    font-size: 23px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.idx-addr {
+    font-size: 12px;
+}
+
+.right {
+    float: right;
+    line-height: 60px;
+    margin-right: 200px;
+}
+
+.right a:first-child {
+    color: #FF6500;
+}
+
+/* ============ page-main ============= */
+.page-main {
+    width: 900px;
+    height: 440px;
+    background-color: white;
+    margin: 50px auto 100px auto;
+    border-radius: 10px;
+    padding-top: 80px;
+}
+
+.page-main img {
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    width: 380px;
+    height: 200px;
+    margin: 60px auto 0 auto;
+}
+
+form nav {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+form input {
+    border: 1px solid #dddddd;
+}
+
+form p {
+    height: 30px;
+    line-height: 30px;
+    color: #d81e06;
+    background: url(img/info.png) no-repeat;
+    background-size: 28px;
+    text-indent: 28px;
+    font-size: 12px;
+    visibility: hidden;
+}
+
+.form-top {
+    height: 160px;
+}
+
+/* -------nav email ------ */
+.div-email input {
+    width: 380px;
+    height: 45px;
+    text-indent: 12px;
+}
+
+.div-code {
+    margin-top: 5px;
+}
+
+.div-code input {
+    width: 200px;
+    height: 45px;
+    text-indent: 12px;
+    float: left;
+}
+
+canvas {
+    display: block;
+    float: right;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.div-code p {
+    margin-top: 53px;
+    clear: both;
+}
+
+/* -------nav getcode ------ */
+form label {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background: url(img/success.png) no-repeat;
+    text-indent: 80px;
+    color: #656565;
+    font-size: 14px;
+}
+
+.div-getcode {
+    margin-top: 20px;
+    width: 382px;
+}
+
+#code {
+    width: 245px;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 12px;
+}
+
+#code-btn {
+    width: 128px;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: content-box;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* -------nav reset-pwd ------ */
+.reset-pwd input {
+    width: 380px;
+    height: 45px;
+    margin-top: 20px;
+    text-indent: 12px;
+}
+
+/* -------submit------ */
+.smbtn {
+    width: 380px;
+    height: 45px;
+    border-radius: 5px;
+    color: #656565;
+    background-color: #eeeeee;
+    font-size: 20px;
+    box-sizing: content-box;
+    margin-top: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-able {
+    background-color: #FF6500;
+    color: white;
+}
+
+/* -------page-bottom------ */
+.page-bottom span {
+    text-align: center;
+    display: block;
+    color: #515153;
+    font-size: 14px;
+    margin-top: 20px;
+}

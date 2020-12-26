@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找回密码</title>
+    <link rel="shortcut icon" href="../img/waysideicon.ico">
+    <link rel="stylesheet" href="./forget.css">
+    <script>
+        function getYear() {
+            let date = new Date();
+            let year = date.getFullYear();
+            document.getElementById("year").innerHTML = year;
+        }
+    </script>
+</head>
+<body onload="getYear()">
+    <div class="page-top">
+        <div class="left">
+            <span class="disc">地面开发科</span>
+            <span class="idx-addr">www.wayside.com</span>
+        </div>
+        
+        <div class="right">
+            <a href="../login.html">登录</a>
+            <a href="../register/register.html">注册</a>
+            <span> | wayside 用户</span>
+        </div>
+    </div>
+
+    <div class="page-main">
+        <img id="img-top" src="./img/email_modify01.png">
+        <form action="">
+            <div class="form-top">
+                <nav class="email active">
+                    <div class="div-email">
+                        <input type="text" placeholder="请输入注册时的邮箱">
+                        <p></p>
+                    </div>
+                    <div class="div-code">
+                        <input type="text" placeholder="请输入验证码">
+                        <canvas></canvas>
+                        <p></p>
+                    </div>
+                </nav>
+                <nav class="getcode">
+                    <label>验证码已发送至邮箱，3分钟内有效。</label>
+                    <div class="div-getcode">
+                        <input id="code" type="text" placeholder="请输入邮箱验证码">
+                        <input id="code-btn" class="btn-able" type="button" value="获取验证码">
+                        <p></p>
+                    </div>
+                </nav>
+                <nav class="reset-pwd">
+                    <label>验证码校验成功，重置密码 。。。</label>
+                    <input type="password" placeholder="请悄悄输入密码">
+                    <p></p>
+                </nav>
+            </div>
+
+            <input type="button" class="smbtn" value="找回密码" disabled="true">
+        </form>
+    </div>
+
+    <div class="page-bottom">
+        <hr>
+        <span>Copyright © 2019-<label id="year"></label> Wayside All Rights Reserved</span>
+    </div>
+
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript" src="../jquery.md5.js"></script>
+    <script type="text/javascript" src="../public.js"></script>
+    <script type="text/javascript" src="./forget.js"></script>
+
+</body>
+</html>

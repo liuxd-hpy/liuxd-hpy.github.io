@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link rel="shortcut icon" href="../img/waysideicon.ico">
+    <link rel="stylesheet" href="../iconfont/tmfont/iconfont.css">
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+    <div class="main">
+        <span class="title">欢迎注册 wayside 用户</span>
+        <form action="">
+            <input class="staff-no" type="text" placeholder="* 工号"/>
+            <input class="name" type="text" placeholder="用户名（姓名）"/>
+            <input class="pwd" type="password" placeholder="* 密码">
+            <input class="spwd" type="password" placeholder="* 确认密码"/>
+            <input class="telephone" type="text" placeholder="手机号"/>
+            <input class="email" type="text" placeholder="* 邮箱"/>
+            <input class="chk-code hide" type="text" placeholder="* 验证码"/>
+            <input class="chk-btn hide" type="button" value="获取验证码"/>
+            <input class="sm" type="button" value="立即注册">
+        </form>
+        <p></p>
+        <span class="login">已有账号？<a href="../login.html">点此登录</a></span>
+        <a id="send"></a>
+    </div>
+
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript" src="../jquery.md5.js"></script>
+    <script type="text/javascript" src="../public.js"></script>
+    <script type="text/javascript" src="./register.js"></script>
+</body>
+</html>

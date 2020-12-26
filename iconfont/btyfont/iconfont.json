@@ -1,0 +1,464 @@
+{
+  "id": "1549550",
+  "name": "kawayi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11982921",
+      "name": "Pet Care",
+      "font_class": "PetCare",
+      "unicode": "e9e0",
+      "unicode_decimal": 59872
+    },
+    {
+      "icon_id": "11982922",
+      "name": "Online Vet",
+      "font_class": "OnlineVet",
+      "unicode": "e9e1",
+      "unicode_decimal": 59873
+    },
+    {
+      "icon_id": "11982923",
+      "name": "Pet Advice",
+      "font_class": "PetAdvice",
+      "unicode": "e9e2",
+      "unicode_decimal": 59874
+    },
+    {
+      "icon_id": "11982924",
+      "name": "Pet Box",
+      "font_class": "PetBox",
+      "unicode": "e9e3",
+      "unicode_decimal": 59875
+    },
+    {
+      "icon_id": "11982925",
+      "name": "Pet Boarding",
+      "font_class": "PetBoarding",
+      "unicode": "e9e4",
+      "unicode_decimal": 59876
+    },
+    {
+      "icon_id": "11982926",
+      "name": "Pet Bed",
+      "font_class": "PetBed",
+      "unicode": "e9e5",
+      "unicode_decimal": 59877
+    },
+    {
+      "icon_id": "11982927",
+      "name": "Pet Carrier",
+      "font_class": "PetCarrier",
+      "unicode": "e9e6",
+      "unicode_decimal": 59878
+    },
+    {
+      "icon_id": "11982928",
+      "name": "Pet Vitamins",
+      "font_class": "PetVitamins",
+      "unicode": "e9e7",
+      "unicode_decimal": 59879
+    },
+    {
+      "icon_id": "11982929",
+      "name": "Roller",
+      "font_class": "Roller",
+      "unicode": "e9e8",
+      "unicode_decimal": 59880
+    },
+    {
+      "icon_id": "11982930",
+      "name": "Registration",
+      "font_class": "Registration",
+      "unicode": "e9e9",
+      "unicode_decimal": 59881
+    },
+    {
+      "icon_id": "11982931",
+      "name": "Pet Microchip",
+      "font_class": "PetMicrochip",
+      "unicode": "e9ea",
+      "unicode_decimal": 59882
+    },
+    {
+      "icon_id": "11982932",
+      "name": "Veterinary Certificate",
+      "font_class": "VeterinaryCertificate",
+      "unicode": "e9eb",
+      "unicode_decimal": 59883
+    },
+    {
+      "icon_id": "11982933",
+      "name": "Pet Shelter",
+      "font_class": "PetShelter",
+      "unicode": "e9ec",
+      "unicode_decimal": 59884
+    },
+    {
+      "icon_id": "11982934",
+      "name": "Tick Prevention",
+      "font_class": "TickPrevention",
+      "unicode": "e9ed",
+      "unicode_decimal": 59885
+    },
+    {
+      "icon_id": "11982935",
+      "name": "Pet Store",
+      "font_class": "PetStore",
+      "unicode": "e9ee",
+      "unicode_decimal": 59886
+    },
+    {
+      "icon_id": "11982936",
+      "name": "Poop",
+      "font_class": "Poop",
+      "unicode": "e9ef",
+      "unicode_decimal": 59887
+    },
+    {
+      "icon_id": "11982937",
+      "name": "Dog Toy",
+      "font_class": "DogToy",
+      "unicode": "e9f0",
+      "unicode_decimal": 59888
+    },
+    {
+      "icon_id": "11982938",
+      "name": "Spay",
+      "font_class": "Spay",
+      "unicode": "e9f1",
+      "unicode_decimal": 59889
+    },
+    {
+      "icon_id": "11982939",
+      "name": "Goldfish",
+      "font_class": "Goldfish",
+      "unicode": "e9f2",
+      "unicode_decimal": 59890
+    },
+    {
+      "icon_id": "11982940",
+      "name": "Vaccine",
+      "font_class": "Vaccine",
+      "unicode": "e9f3",
+      "unicode_decimal": 59891
+    },
+    {
+      "icon_id": "11982941",
+      "name": "Animal Eye Care",
+      "font_class": "AnimalEyeCare",
+      "unicode": "e9f4",
+      "unicode_decimal": 59892
+    },
+    {
+      "icon_id": "11982942",
+      "name": "Vet Clinic Address",
+      "font_class": "VetClinicAddress",
+      "unicode": "e9f5",
+      "unicode_decimal": 59893
+    },
+    {
+      "icon_id": "11982943",
+      "name": "Vet Hours",
+      "font_class": "VetHours",
+      "unicode": "e9f6",
+      "unicode_decimal": 59894
+    },
+    {
+      "icon_id": "11982944",
+      "name": "Bird",
+      "font_class": "Bird",
+      "unicode": "e9f7",
+      "unicode_decimal": 59895
+    },
+    {
+      "icon_id": "11982945",
+      "name": "Spray",
+      "font_class": "Spray",
+      "unicode": "e9f8",
+      "unicode_decimal": 59896
+    },
+    {
+      "icon_id": "11982946",
+      "name": "Dog Cone",
+      "font_class": "DogCone",
+      "unicode": "e9f9",
+      "unicode_decimal": 59897
+    },
+    {
+      "icon_id": "11982947",
+      "name": "Collar",
+      "font_class": "Collar",
+      "unicode": "e9fa",
+      "unicode_decimal": 59898
+    },
+    {
+      "icon_id": "11982948",
+      "name": "Playpen",
+      "font_class": "Playpen",
+      "unicode": "e9fb",
+      "unicode_decimal": 59899
+    },
+    {
+      "icon_id": "11982949",
+      "name": "Eye Drop",
+      "font_class": "EyeDrop",
+      "unicode": "e9fc",
+      "unicode_decimal": 59900
+    },
+    {
+      "icon_id": "11982950",
+      "name": "X-Ray",
+      "font_class": "X-Ray",
+      "unicode": "e9fd",
+      "unicode_decimal": 59901
+    },
+    {
+      "icon_id": "11982951",
+      "name": "Pet Food",
+      "font_class": "PetFood",
+      "unicode": "e9fe",
+      "unicode_decimal": 59902
+    },
+    {
+      "icon_id": "11982952",
+      "name": "Mobile Vet",
+      "font_class": "MobileVet",
+      "unicode": "e9ff",
+      "unicode_decimal": 59903
+    },
+    {
+      "icon_id": "11982953",
+      "name": "House Call Vet",
+      "font_class": "HouseCallVet",
+      "unicode": "ea00",
+      "unicode_decimal": 59904
+    },
+    {
+      "icon_id": "11982954",
+      "name": "Neuter",
+      "font_class": "Neuter",
+      "unicode": "ea01",
+      "unicode_decimal": 59905
+    },
+    {
+      "icon_id": "11982955",
+      "name": "Animal Hospital",
+      "font_class": "AnimalHospital",
+      "unicode": "ea02",
+      "unicode_decimal": 59906
+    },
+    {
+      "icon_id": "11982956",
+      "name": "Medicine",
+      "font_class": "Medicine",
+      "unicode": "ea03",
+      "unicode_decimal": 59907
+    },
+    {
+      "icon_id": "11982957",
+      "name": "Litter Box",
+      "font_class": "LitterBox",
+      "unicode": "ea04",
+      "unicode_decimal": 59908
+    },
+    {
+      "icon_id": "11982958",
+      "name": "Declawing",
+      "font_class": "Declawing",
+      "unicode": "ea05",
+      "unicode_decimal": 59909
+    },
+    {
+      "icon_id": "11982959",
+      "name": "First Aid",
+      "font_class": "FirstAid",
+      "unicode": "ea06",
+      "unicode_decimal": 59910
+    },
+    {
+      "icon_id": "11982960",
+      "name": "Health Report",
+      "font_class": "HealthReport",
+      "unicode": "ea07",
+      "unicode_decimal": 59911
+    },
+    {
+      "icon_id": "11982961",
+      "name": "Female Vet",
+      "font_class": "FemaleVet",
+      "unicode": "ea08",
+      "unicode_decimal": 59912
+    },
+    {
+      "icon_id": "11982962",
+      "name": "Animal Checkup",
+      "font_class": "AnimalCheckup",
+      "unicode": "ea09",
+      "unicode_decimal": 59913
+    },
+    {
+      "icon_id": "11982963",
+      "name": "Scale",
+      "font_class": "Scale",
+      "unicode": "ea0a",
+      "unicode_decimal": 59914
+    },
+    {
+      "icon_id": "11982964",
+      "name": "24 Hour Vet",
+      "font_class": "HourVet",
+      "unicode": "ea0b",
+      "unicode_decimal": 59915
+    },
+    {
+      "icon_id": "11982965",
+      "name": "Grooming",
+      "font_class": "Grooming",
+      "unicode": "ea0c",
+      "unicode_decimal": 59916
+    },
+    {
+      "icon_id": "11982966",
+      "name": "Cardiology",
+      "font_class": "Cardiology",
+      "unicode": "ea0d",
+      "unicode_decimal": 59917
+    },
+    {
+      "icon_id": "11982967",
+      "name": "Heartworm Treatment",
+      "font_class": "HeartwormTreatment",
+      "unicode": "ea0e",
+      "unicode_decimal": 59918
+    },
+    {
+      "icon_id": "11982968",
+      "name": "Cat Grooming",
+      "font_class": "CatGrooming",
+      "unicode": "ea0f",
+      "unicode_decimal": 59919
+    },
+    {
+      "icon_id": "11982969",
+      "name": "Muzzle",
+      "font_class": "Muzzle",
+      "unicode": "ea10",
+      "unicode_decimal": 59920
+    },
+    {
+      "icon_id": "11982970",
+      "name": "Dog",
+      "font_class": "Dog",
+      "unicode": "ea11",
+      "unicode_decimal": 59921
+    },
+    {
+      "icon_id": "11982971",
+      "name": "Hamster",
+      "font_class": "Hamster",
+      "unicode": "ea12",
+      "unicode_decimal": 59922
+    },
+    {
+      "icon_id": "11982972",
+      "name": "Pet Ultrasound",
+      "font_class": "PetUltrasound",
+      "unicode": "ea13",
+      "unicode_decimal": 59923
+    },
+    {
+      "icon_id": "11982973",
+      "name": "Veterinary",
+      "font_class": "Veterinary",
+      "unicode": "ea14",
+      "unicode_decimal": 59924
+    },
+    {
+      "icon_id": "11982974",
+      "name": "Adoption",
+      "font_class": "Adoption",
+      "unicode": "ea15",
+      "unicode_decimal": 59925
+    },
+    {
+      "icon_id": "11982975",
+      "name": "Pet Insurance",
+      "font_class": "PetInsurance",
+      "unicode": "ea16",
+      "unicode_decimal": 59926
+    },
+    {
+      "icon_id": "11982976",
+      "name": "Dental Cleaning",
+      "font_class": "DentalCleaning",
+      "unicode": "ea17",
+      "unicode_decimal": 59927
+    },
+    {
+      "icon_id": "11982978",
+      "name": "Vet Prices",
+      "font_class": "VetPrices",
+      "unicode": "ea18",
+      "unicode_decimal": 59928
+    },
+    {
+      "icon_id": "11982979",
+      "name": "Free Veterinary Care",
+      "font_class": "FreeVeterinaryCare",
+      "unicode": "ea19",
+      "unicode_decimal": 59929
+    },
+    {
+      "icon_id": "11982980",
+      "name": "Cat",
+      "font_class": "Cat",
+      "unicode": "ea1a",
+      "unicode_decimal": 59930
+    },
+    {
+      "icon_id": "11982981",
+      "name": "Male Vet",
+      "font_class": "MaleVet",
+      "unicode": "ea1b",
+      "unicode_decimal": 59931
+    },
+    {
+      "icon_id": "11982982",
+      "name": "Dermatology",
+      "font_class": "Dermatology",
+      "unicode": "ea1c",
+      "unicode_decimal": 59932
+    },
+    {
+      "icon_id": "11982983",
+      "name": "Ask a Vet",
+      "font_class": "AskaVet",
+      "unicode": "ea1d",
+      "unicode_decimal": 59933
+    },
+    {
+      "icon_id": "11982984",
+      "name": "Iv Pole",
+      "font_class": "IvPole",
+      "unicode": "ea1e",
+      "unicode_decimal": 59934
+    },
+    {
+      "icon_id": "11982985",
+      "name": "Exotic Pet Vet",
+      "font_class": "ExoticPetVet",
+      "unicode": "ea1f",
+      "unicode_decimal": 59935
+    },
+    {
+      "icon_id": "11982986",
+      "name": "Rabbit Vet",
+      "font_class": "RabbitVet",
+      "unicode": "ea20",
+      "unicode_decimal": 59936
+    }
+  ]
+}

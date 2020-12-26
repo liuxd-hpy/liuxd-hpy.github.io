@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.page-top {
+    width: 100%;
+    height: 50%;
+    background: #ededed;
+}
+
+.main {
+    background: white;
+    width: 650px;
+    height: 380px;
+    position: relative;
+    top: 100%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    text-align: center;
+}
+
+.main-top {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+}
+
+.main-top span {
+    font-size: 40px;
+    color: rgb(86, 236, 247);
+}
+
+.main-top strong {
+    font-size: 20px;
+    color: #2e7596;
+    position: relative;
+    top: -5px;
+}
+
+.bg-img {
+    background: url(img/index-bg.png) 0 -63px no-repeat;
+    background-size: cover; /* cover 属性指定背景图可以被调整到任意大小，以使背景图完全覆盖背景区域 */
+    width: 100%;
+    height: 125px;
+}
+
+.main-bottom {
+    margin-top: 45px;
+}
+
+.main-bottom ul {
+    display: inline-block;
+    vertical-align: top;  /* 使inline-block对齐 */
+}
+
+.main-bottom ul:last-child{
+    margin-left: 60px;
+}
+
+.mb-left li {
+    margin-bottom: 10px;
+}
+.mb-left li.last {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+}
+
+input {
+    padding-left: 30px;
+    border: 1px solid #d9d9d9;
+    width: 210px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.user {
+    background: url(img/nickname.png) no-repeat;
+    background-size: 30px;
+}
+
+.pwd {
+    background: url(img/locking.png) no-repeat;
+    background-size: 30px;
+}
+
+.login-btn {
+    display: block;
+    width: 90px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 10px;
+    margin: 0 auto 5px auto;
+
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(#e28b6e, #af3130);
+}
+
+.login-btn:active {
+    background-image: linear-gradient(#ca5f5f, #bd2626);
+}
+
+.mb-right a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mb-right a:hover {
+    text-decoration: underline;
+}
+
+.page-bottom {
+    width: 100%;
+    height: 50%;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.page-bottom span {
+    color: #515153;
+    font-size: 14px;
+    position: relative;
+    top: 250px;
+}
